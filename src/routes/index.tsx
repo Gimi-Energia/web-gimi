@@ -9,11 +9,11 @@ import DashboardPrint from '../printer/DashboardPrint';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/react/" exact component={Panel} />
-    <Route path="/react/create/cubiculo" component={CreateCubicle} />
-    <Route path="/react/create/involucro" component={CreateWrapper} />
-    <Route path="/react/create/caixa" component={CreateTransitionBox} />
-    <Route path="/react/test" component={DashboardPrint} />
+    <Route path="/" exact component={Panel} />
+    <Route path="/create/cubiculo" component={CreateCubicle} />
+    <Route path="/create/involucro" component={CreateWrapper} />
+    <Route path="/create/caixa" component={CreateTransitionBox} />
+    <Route path="/test" component={DashboardPrint} />
   </Switch>
 );
 
