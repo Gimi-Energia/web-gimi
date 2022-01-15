@@ -1,0 +1,118 @@
+{
+  "lineProducts" : [
+    {
+      "value": "NP",
+      "label": "NP - NEW PICCOLO",
+      "title": "NEW PICCOLO"
+    }
+  ],
+
+  "classifications": [
+    {
+      "value": 2,
+      "label": "2 - TRANSIÇÃO",
+      "type": "TRANSIÇÃO"
+    },
+    {
+      "value": 4,
+      "label": "4 - TP AUXILIAR (DERIVAÇÃO SUPERIOR)",
+      "type": "TP AUXILIAR"
+    },
+    {
+      "value": 4.1,
+      "label": "4.1 - TP AUXILIAR (DERIVAÇÃO INFERIOR)",
+      "type": "TP AUXILIAR"
+    },
+    {
+      "value": 5,
+      "label": "5 - MEDIÇÃO SEM CHAVE SECCIONADORA (ENTRADA LATERAL)",
+      "type": "MEDIÇÃO"
+    },
+    {
+      "value": 5.1,
+      "label": "5.1 - MEDIÇÃO SEM CHAVE SECCIONADORA (ENTRADA INFERIOR)",
+      "type": "ENTRADA + MEDIÇÃO"
+    },
+    {
+      "value": 6,
+      "label": "6 - ENTRADA SEM CHAVE SECCIONADORA",
+      "type": "ENTRADA"
+    },
+    {
+      "value": 7,
+      "label": "7 - SAÍDA COM CHAVE SECCIONADORA",
+      "type": "SAÍDA"
+    },
+    {
+      "value": 7.1,
+      "label": "7.1 - ENTRADA COM CHAVE SECCIONADORA",
+      "type": "ENTRADA"
+    },
+    {
+      "value": 8,
+      "label": "8 - SAÍDA COM CHAVE SECCIONADORA FUSÍVEL",
+      "type": "SAÍDA"
+    },
+    {
+      "value": 9,
+      "label": "9 - SAÍDA COM DISJUNTOR",
+      "type": "SAÍDA"
+    },
+    {
+      "value": 9.1,
+      "label": "9.1 - DISJUNTOR GERAL",
+      "type": "PROTEÇÃO"
+    }
+  ],
+
+  "voltages": [
+    {
+      "value": 0,
+      "label": "0 - Sem TP"
+    },
+    {
+      "value": 1,
+      "label": "1 - Com um TP"
+    },
+    {
+      "value": 2,
+      "label": "2 - Com dois TP's"
+    },
+    {
+      "value": 3,
+      "label": "3 - Com três TP's"
+    }
+  ],
+
+  "currents": [
+    {
+      "value": 0,
+      "label": "0 - Sem TC e sem sensor de corrente"
+    },
+    {
+      "value": 1,
+      "label": "1 - Com um TC"
+    },
+    {
+      "value": 2,
+      "label": "2 - Com dois TC's"
+    },
+    {
+      "value": 3,
+      "label": "3 - Com três TC's"
+    },
+    {
+      "value": 4,
+      "label": "4 - Com três TC's + um sensor de corrente residual"
+    },
+    {
+      "value": 5,
+      "label": "5 - Com três sensores de corrente"
+    },
+    {
+      "value": 6,
+      "label": "6 - Com três sensores de corrente + um sensor de corrente residual"
+    }
+  ]
+
+}
