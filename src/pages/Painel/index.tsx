@@ -244,11 +244,6 @@ const Panel: React.FC = () => {
     [selectedItems, cubicles, wrapperWidth, wrappers],
   );
 
-  const hasTransitionBox = useMemo(
-    () => !!cubicles.find(cubicle => cubicle.variable === 2),
-    [cubicles],
-  );
-
   const handleAddWrapper = useCallback(async () => {
     try {
       const positionInvolucroSort = selectedItems
@@ -299,7 +294,6 @@ const Panel: React.FC = () => {
       toast.error('Involucro não encontrado.');
     }
   }, [
-    hasTransitionBox,
     selectedItems,
     addWrapper,
     selectedDeepWrapper,
@@ -373,7 +367,6 @@ const Panel: React.FC = () => {
     },
     [
       wrappers,
-      cubicles,
       addWrapper,
       cutViews,
       updateCutViews,

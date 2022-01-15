@@ -8,7 +8,7 @@ import Label from '../../Label';
 import BottomWrapper from '../../TypeWrappers/BottomWrapper';
 import UpperWrapper from '../../TypeWrappers/UpperWrapper';
 
-import { Container, CubicleContainer, Title, TransitionBox } from './styles';
+import { Container, CubicleContainer, Title } from './styles';
 
 interface IExternalCubicleProps {
   title: string;
